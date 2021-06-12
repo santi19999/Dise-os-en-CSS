@@ -1,0 +1,142 @@
+:root {
+    --skin: #f6c09c;
+    --background: #ed4042;
+    --red: #ed2860;
+    --dark-red: #680524;
+    --black: #00243a;
+    --white: #fff;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto auto;
+    border: 1px solid greenyellow;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabeza {
+    background-color: var(--skin);
+    width: 200px;
+    height: 350px;
+    border-radius: 100px;
+    position: relative;
+}
+
+.ojo-izq {
+    width: 60px;
+    height: 50px;
+    background-color: var(--white);
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    border-start-end-radius: 27px;
+    border-start-start-radius: 27px;
+    border-end-start-radius: 27px;
+    border-end-end-radius: 27px;
+}
+
+.ojo-der {
+    width: 60px;
+    height: 50px;
+    background-color: var(--white);
+    position: absolute;
+    right: 14%;
+    top: 25%;
+    border-start-end-radius: 27px;
+    border-start-start-radius: 27px;
+    border-end-start-radius: 27px;
+    border-end-end-radius: 27px;
+}
+
+.pupila-izq {
+    background-color: var(--black);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.pupila-der {
+    background-color: var(--black);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.nariz {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--skin);
+    position: absolute;
+    left: 38%;
+    top: 38%;
+}
+
+.barba {
+    width: 200px;
+    height: 250px;
+    background-color: var(--black);
+    border-radius: 65px 65px 90px 90px;
+    position: relative;
+    top: 155px;
+}
+
+.boca {
+    width: 90px;
+    height: 40px;
+    background-color: var(--dark-red);
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 200px;
+    left: 55px;
+}
+
+.dientes {
+    width: 75px;
+    height: 5px;
+    position: absolute;
+    background-color: var(--white);
+    border-radius: 3px 15px 50px 45px;
+}
+
+.oreja-izq {
+    width: 35px;
+    height: 35px;
+    background-color: var(--skin);
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 50%;
+    top: 140px;
+    left: -20px;
+}
+
+.oreja-der {
+    width: 35px;
+    height: 35px;
+    background-color: var(--skin);
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 50%;
+    top: 140px;
+    left: 182px;
+}
+
+.cuello {
+    background-color: var(--skin);
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    opacity: 0.5;
+}
